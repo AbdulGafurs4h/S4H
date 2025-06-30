@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>S4H Consultancy Services</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Segoe UI", sans-serif;
+      }
+      .logo{
+        width: 100%;
+        height: 50px;
+      }
+
+      @media only screen and (min-width:600px) {
+        .logo{
+          height: 90px;
+        }
+        
+        .carousel-text{
+          font-size: 20px;
+        }
+        
+      }
+
+      @media only screen and (max-width:600px) {
+        .carousel-text{
+          font-size: 11px;
+        }
+      }
+
+      .hero {
+        background: #003366;
+        color: white;
+        padding: 50px 0;
+        text-align: center;
+      }
+      .carousel img {
+        height: 250px;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+      footer {
+        background: #003366;
+        color: white;
+        padding: 20px 0;
+      }
+      .btn-call {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: #198754;
+        color: white;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        font-size: 24px;
+        text-align: center;
+        line-height: 60px;
+      }
+      .btn-call:hover {
+        background-color: #157347;
+        color: white;
+      }
+
+      .carousel-text{
+        color: #003366;
+      }
+       
+      .services{
+        background-color: #003366;
+        color: white;
+        padding: 5px;
+        border-radius: 5px;
+      }
+    
+    </style>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container d-flex justify-content-center">
+        <a class="navbar-brand" href="#"><img src="SH4.jpeg" class="logo" alt=""></a>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero mb-3">
+      <div class="container">
+        <h1>
+          Your One-Stop Solution for Taxation, Compliance & Business Services
+        </h1>
+        <p class="fw-bolder fs-5">Prop: Sajid Inayatullah Hurzuk</p>
+        <section class="py-3">
+          <div class="container">
+            <h2 class="text-start text-light mb-4">About Us</h2>
+            <p class="text-start text-light">
+              At S4H Consultancy Services, we are committed to being your most
+              reliable partner in navigating the complex world of taxation,
+              compliance, and business regulations. With years of experience and
+              a deep understanding of government norms and business needs, we
+              help individuals, startups, and enterprises achieve peace of mind
+              by managing their financial and legal obligations smoothly.
+            </p>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <!-- Services Carousel -->
+    <section class="container mb-5">
+      <div id="servicesCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="income tax img.jpg"
+              class="d-block w-100"
+              alt="Service 1"
+            />
+            <div class="carousel-caption d-md-block ">
+              <span class="carousel-text bg-light rounded p-2 fw-bold">Income Tax Return</span>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="Accounting and audit work.jpg"
+              class="d-block w-100"
+              alt="Service 2"
+            />
+            <div class="carousel-caption d-md-block">
+              <span class="carousel-text bg-light rounded p-2 fw-bold">Accounting & Audit Work</span>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="Company Formation & Compliance.jpg"
+              class="d-block w-100"
+              alt="Service 3"
+            />
+            <div class="carousel-caption text-center d-md-block">
+              <span class="carousel-text bg-light rounded p-2 fw-bold">Company Formation & Compliance</span>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="gst registration & filling.jpg"
+              class="d-block w-100"
+              alt="Service 3"
+            />
+            <div class="carousel-caption text-center d-md-block">
+              <span class="carousel-text bg-light rounded p-2 fw-bold">GST Registration & Filling</span>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="E-way-Bill.jpg"
+              class="d-block w-100"
+              alt="Service 3"
+            />
+            <div class="carousel-caption text-center d-md-block">
+              <span class="carousel-text bg-light rounded p-2 fw-bold">E-Way Bills & TDS Work</span>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="Trust Society Registration.jpg"
+              class="d-block w-100"
+              alt="Service 3"
+            />
+            <div class="carousel-caption text-center d-md-block">
+              <span class="carousel-text bg-light rounded p-2 fw-bold">Trust / Society Registration</span>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="Trust Society Accounting Work.jpg"
+              class="d-block w-100"
+              alt="Service 3"
+            />
+            <div class="carousel-caption text-center d-md-block">
+              <span class="carousel-text bg-light rounded p-2 fw-bold">Trust / Society Accounting Work</span>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#servicesCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#servicesCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="container">
+       <div class="row ">
+        <div class="col-lg-6">
+          <h2 class="services text-center">Our Service</h2>
+          <p class="fw-bold">> Income Tax Return</p>
+          <p class="fw-bold">> GST Registration & Filling</p>
+          <p class="fw-bold">> E-Way Bills & TDS Work</p>
+          <p class="fw-bold">> Accounting & Audit Work</p>
+          <p class="fw-bold">> Company Formation & Compliance</p>
+          <p class="fw-bold">> Trust / Society Registration</p>
+          <p class="fw-bold">> Trust / Society Accounting Work</p>
+        </div>
+        <div class="col-lg-6">
+          <h2 class="services text-center">Other Service</h2>
+          <p class="fw-bold">> Pan Card</p>
+          <p class="fw-bold">> Udhyam Registration</p>
+          <p class="fw-bold">> Shop & Establishment Certificate</p>
+          <p class="fw-bold">> Digital Signature</p>
+          <p class="fw-bold">> Partnership Deed</p>
+          <p class="fw-bold">> Project Report</p>
+          <p class="fw-bold">> Import Export Certificate</p>
+        </div>
+       </div>
+    </section>
+    <!-- Services -->
+
+    <!-- Footer -->
+    <footer class="text-center">
+      <div class="container">
+        <p>
+          Contact: Sajid H. - +91 7972012901 | A. Gafoor H. - +91 7620907841
+        </p>
+        <p>
+          S.K Building, Gala No.6, Dighi Road, Tal Mhasla, Mhasla, Raigad, MS -
+          402105
+        </p>
+        <p>© 2025 Designed & Developed by Abdul Rehmen Rafid Gharade</p>
+      </div>
+    </footer>
+
+    <!-- Call Button -->
+    <a href="tel:+917972012901" class="btn-call">☎</a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
